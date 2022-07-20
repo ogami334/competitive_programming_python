@@ -1,7 +1,11 @@
 from typing import Any, Callable, List, Tuple
+from itertools import product
+from collections import defaultdict, deque
+from heapq import heapify, heappop, heappush
 import sys
 input = sys.stdin.readline
 sys.setrecursionlimit(10**7)
+
 
 # constant
 inf = 10 ** 20
